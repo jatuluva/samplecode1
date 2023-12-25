@@ -1,0 +1,30 @@
+Day 7 notes : commands:
+
+ yum install httpd
+ systemctl start httpd
+cat /var/www/html/index.html
+    systemctl status httpd
+    curl http://localhost:80
+       vagrant reload
+ yum install httpd
+cd /var/www/html
+ls
+echo "<h1>Hello from My Httpd Webserver</h1>">index.html
+
+see the video at 10.20 to chnage the script changes and location
+
+
+
+
+
+to customaize website: in side .sh file:
+#!/bin/bash
+ssystemctl start httpd
+systemctl enable httpd
+echo "<h1>Hello from My Httpd Webserver</h1>">index.htmludo yum install httpd -y
+
+
+
+Commands after exit from .sh:
+yum erase httpd - to uninstall the httpd
+https://github.com/ruanyf/simple-bash-scripts
